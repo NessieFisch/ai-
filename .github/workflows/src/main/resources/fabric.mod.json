@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpclient",
+  "version": "${version}",
+  "name": "PvP Client",
+  "description": "Visual PvP client with Right Shift GUI, top bar and music support",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.yourname.pvpclient.PvPClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
